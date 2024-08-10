@@ -1,0 +1,33 @@
+Task 6: Batmobile Motor Control
+About
+Gotham City is under threat, and the Justice League needs your
+help! Batman's iconic Batmobile, a crucial asset in the fight
+against crime, requires a new motor control system to enhance
+its agility and speed. Your mission is to design an H-bridge circuit
+that will enable the Batmobile to maneuver swiftly and safely
+through the dark alleys and streets of Gotham.
+Components
+4 Data header to represent the microcontroller signals
+2 rosetta (screw terminals block) one for the battery and one for
+the motor
+2 n-channels mosfets
+2 p-channel mosfets
+Resistors + Consider Safety considerations
+Requirements
+Design an H-bridge circuit in Altium to control the direction
+and speed of a 12V, 3A DC motor. Consider including features
+that can help protect the circuit and the motor from potential
+issues.
+● Do you need flyback diodes for the motors? (Like we used
+with the transistor).
+● If you do, how would you connect flyback diodes to a
+bi-directional load like a motor?
+Submission
+● You will submit your schematic and board as a zip file using a drive
+link
+● Answer the questions proposed in the task in the form.
+● The Task’s deadline is 7/8 11:59 PM.
+● Q&A Sheet (if you have any question regarding the sessions or the
+task) : Q&A Sheet
+● Submission form: https://forms.gle/MxjUXcMj3txJk6ah6
+● Cheating is severely penalized
