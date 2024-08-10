@@ -1,0 +1,111 @@
+Task 4.1: Understanding The Weather
+About
+Red Tornado is on a mission to understand weather patterns
+better to aid in disaster prevention and management. Using his
+computational abilities, he needs to analyze a dataset containing
+historical weather data. Your mission is to help Red Tornado load,
+clean, and preprocess the dataset, then visualize key aspects of
+the data to extract meaningful insights.
+Requirements
+● Load the dataset as a dataframe.
+● Clean and preprocess the data (handle missing values,
+remove duplicates and handle incorrect data).
+● Plot temperature over time.
+● Create a histogram of temperature distribution.
+● Plot a scatter plot of temperature vs. humidity.
+● Generate a correlation heatmap of the dataset and explain the
+output in a markdown cell.
+Dataset Link Weather Dataset
+Task 4.2: Battle Planning with Batman 2
+About
+Batman has gathered his allies to plan a strategic battle against
+the villains, including Joker, Harley Quinn, and others. Using a
+chessboard as the battlefield, Batman must maneuver his pieces
+to outwit and defeat the villains. Each chess piece represents a
+member of the Justice League or an ally of Batman, while the
+opposing pieces represent various villains. Your mission is to
+implement a chess game to help the justice league simulate their
+strategies.
+Requirements
+● Implement the Chess Logic (Basic Moves Only): Use
+python to create the core of the chess game.
+1. Handle piece movements (Pawn, Rook, Knight, Bishop,
+Queen and King movements).
+2. Switch between the two players.
+3. Implement game rules like checkmate.
+● Create a GUI
+● Document Every Step: Detailed documentation for your code,
+making it easy to understand and highlight any additional
+features implemented such as special moves (castling,en
+passant or pawn promotion) where using special moves is
+totally optional.
+Hint: Use Pygame library for the GUI.
+Bonus
+● Document your code using readme file (.md).
+● Flip the board for each player’s turn.
+● Convert the game to a single-player mode.
+Task 4.3: Predicting The Weather
+About
+Red Storm, a superhero with the power to control weather
+patterns, needs to predict future weather conditions to prevent
+natural disasters and assist in planning rescue missions. By
+leveraging historical weather data, Red Storm aims to develop a
+machine learning model that can accurately forecast upcoming
+weather conditions. Let's help Red Storm achieve this goal by
+creating the model.
+Objectives
+To predict the weather conditions based on historical weather
+data using machine learning algorithms. The dataset includes
+features such as temperature, humidity, wind speed, and more.
+The goal is to train a model that can accurately forecast future
+weather conditions.
+Use google colab or jupyter notebook in vs
+Requirements
+● Create a Machine Learning Model to predict the weather
+conditions.
+● Use the given dataset , hint ( use the numerical features only )
+and answer the following questions according to the model
+you created .
+● Copy each question in a markdown cell and answer it below
+the code.
+1. What type of machine learning problem is this?
+2. How do the features relate to each other and to the
+weather conditions?
+3. What are the steps involved in preprocessing the
+dataset for machine learning?
+4. How do we select the best model for our dataset? Hint :
+use different regression models and compare their
+metrics
+5. What metrics should we use to evaluate the
+performance of our weather prediction model?
+6. Plot the predicted vs true values
+Dataset:WeatherHistory Dataset
+Bonus :
+Objectives
+Segmentation of the mall customers from the attached Mall
+Customers Dataset.
+Use google colab or jupyter notebook in vs.
+Requirements
+● Create a Segmentation algorithm to segment the mall
+customers.
+● Copy each question in a markdown cell and answer it below
+the code.
+1. What type of machine learning problem is this?
+2. What machine learning algorithms are suitable for customer
+segmentation tasks?
+3. Plot the Answer (hint : use scatter plot)
+Dataset: Mall Customers Dataset
+Resources for Task 4.3
+1- Running Jupyter notebook in VS Code, set up, getting started with pyt…
+2- Linear Regression
+3- Unsupervised Machine Learning example
+Submission
+● You will submit your codes as google colab links for Task 4.1 and
+Task 4.3.
+● You will submit your code as a python file and your
+documentation as a pdf or a Markdown file in Task 4.2.
+● The Task’s deadline is 30/7 11:59 PM.
+● Q&A Sheet (if you have any question regarding the sessions or the
+task) : Q&A Sheet
+● Submission form: https://forms.gle/iBcxvVL9oYAjYW2z7
+● Cheating is severely penalized
