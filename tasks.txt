@@ -1,0 +1,91 @@
+Problem 1: Bat-Signal
+About
+The Bat-Signal is a crucial element in Gotham City's defense
+strategy, used by Commissioner Gordon to alert Batman of
+immediate threats and criminal activities. It projects a large, luminous
+bat symbol into the night sky, signaling Batman to take action.
+However, the current signal system is outdated and prone to failures.
+Your mission is to upgrade the Bat-Signal to ensure it operates
+efficiently and reliably, providing a bright and unmistakable call for
+help whenever Gotham is in danger.
+Description
+1. Design a circuit that takes 220V AC as input and the output is 5V
+DC and connects LED to the output and make a switching circuit to
+control this led (Hint: firstly, you need to step down the AC, then you
+need to convert AC to DC, and lastly connect the load).
+2. If the input power budget of your power supply is 1440W, and you
+use a current limiting resistor with each LED 330 ohm. Estimate
+how many LEDs could be put in parallel that is suitable for this
+power budget.(Npte: the LED will be burnt out after 100mA)
+Problem 2: Building Pyramids in Atlantis
+About
+Atlantis, the legendary underwater kingdom ruled by Aquaman, has
+numerous gates that control the flow of water and access to various
+areas within the kingdom. These gates are crucial for maintaining the
+security and stability of Atlantis. However, the current control systems
+are outdated and need an upgrade to ensure they function reliably
+under the harsh underwater conditions.
+Description
+Design a simple H-bridge driver to control the direction of the DC
+motor which opens and closes the gate using transistors
+(MOSFETs or BJTs).
+Problem 3: Cyborg’s Battery Selection
+About
+Cyborg, a vital member of the Justice League, depends on advanced
+cybernetic enhancements powered by a sophisticated energy core.
+To enhance his performance and ensure sustained operation during
+intense missions, you need to design an optimal battery configuration
+that maximizes power output while minimizing weight and ensuring
+reliability.
+Description
+One of Cyborg’s parts needs a power solution for four 12V motors,
+each drawing 4A continuously, and a camera drawing 0.5A at 12V. The
+system must operate for at least half an hour on a single charge. You
+may use more than one battery to meet this requirement, but aim to
+minimize weight, size, and cost.
+Your task is to identify the most suitable battery by balancing cost,
+performance, weight, and size. Search for suitable batteries in both
+local (Egypt) and international online stores. Justify your choice and
+include a factor of safety in your calculations to ensure the system's
+reliability.
+Batteries Session’s Bonus Questions
+● Answer the questions that are proposed in the Battery Basics
+session in the submission form.
+● Use your understanding of power and energy concepts to
+calculate your electricity consumption and its cost. Can you reduce
+it?
+Submission
+● CAD Design:
+○ Submit a CAD design for both Problem 1.1 and Problem 2.
+○ Preferably use Proteus or any other CAD designing tool.
+○ If you use an online CAD tool like Tinkercad, submit the link in
+a text file.
+○ Compress the CAD files and text file (if applicable) into a zip
+file named 01xxxxxxxxx_task2.zip. and upload it to
+your drive.
+○ Or you can upload all your files to a google drive folder and
+share the folder itself
+○ Ensure that the drive links are set to "public" or "anyone with
+the link".
+● Video Explanation:
+○ Record two videos (maximum of 2 minutes each) for
+Problems 1.1 and Problem 2.
+○ Explain your work in each video, even if the design is not
+working.
+○ Upload the videos to your drive and send the links through
+the provided form.
+○ Ensure that the drive links are set to "public" or "anyone with
+the link".
+● For problem 1.2, problem 3 and the bonus session’s questions,
+provide answers to these problems within the form itself
+alongside the session’s bonus questions.
+● Any approaches which will introduce protection to the circuit will
+give bonus points
+● Submission Link
+https://forms.gle/GV9Ea6Pmn9BaENkq6
+● The Task’s deadline is 21/7 11:59 PM.
+● Q&A Sheet (if you have any question regarding the sessions or the
+task) :
+https://docs.google.com/spreadsheets/d/1WUggTbnBDQAPpbnZ
+GWnbDHMmRYlX25TW751P2cldyGI/edit?usp=sharing
+● Cheating is severely penalized
