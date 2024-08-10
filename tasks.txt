@@ -1,0 +1,51 @@
+Task 5.1: Arkham Asylum Secure Communication
+System
+About
+Arkham Asylum, the infamous prison for Gotham's most
+dangerous criminals, is now utilizing advanced technology to
+ensure the containment of its inmates. Batman has tasked you
+with setting up a secure communication network within the
+asylum. The system must allow different parts of the facility to
+communicate through a central control unit, ensuring that
+messages are relayed without any direct connections, which
+could be compromised.
+Requirements
+Implement a communication system where:
+● The master Arduino acts as the central control unit.
+● The first slave Arduino is connected to the master using I2C.
+● The second slave Arduino is connected to the master using
+serial communication.
+● Send a message from one slave to the other relaying
+through the master without any direct connection between
+the two slaves.
+Task 5.2: Digital world
+About
+Central City is under constant threat from rogue speedsters and
+villains. With meta-human criminals wreaking havoc, The Flash
+needs a robust surveillance system to monitor the city. STAR
+Labs has developed an advanced network of sensors that
+capture various signals indicating disturbances, unusual activity,
+and potential threats. However, to process and analyze these
+signals effectively, they must be converted from analog to digital
+form. You have been tasked with designing and implementing this
+conversion system.
+Requirements
+if we need to convert this analog to digital signal what is the
+digital sequence if we use ADC with :
+● 3-bit encoder with Sampling Time = 0.25sec,
+● 3-bit encoder with Sampling Time = 0.5sec,
+● 3-bit encoder with Sampling Time = 1sec,
+● 2-bit encoder with Sampling Time = 0.25sec,
+at each point draw the discrete signal also (the step after time
+sampling and quantization)
+what is your conclusion from this problem
+Submission
+● You will submit your tinkercad project link for task 5.1
+● You will submit a pdf or a zip using a drive link for task 5.2 which
+includes your answers and graphs(you can do them by hand or
+using a graphing tool).
+● The Task’s deadline is 3/8 11:59 PM.
+● Q&A Sheet (if you have any question regarding the sessions or the
+task) : Q&A Sheet
+● Submission form: https://forms.gle/xXhSwDNDeDxKxyvc8
+● Cheating is severely penalized
