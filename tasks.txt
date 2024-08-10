@@ -1,0 +1,201 @@
+Welcome
+Welcome to the Justice League training program! The Justice
+League is a group of the world's greatest superheroes. They fight
+against evil and protect the Earth. The Hall of Justice is their
+headquarters. It's where they plan missions, train new recruits,
+and keep peace. As a new recruit, you will face a series of tasks
+to test and improve your skills. Each task is guided by a different
+Justice League member. Complete all the tasks to prove you are
+worthy of joining the Hall of Justice and becoming an official
+member of the Justice League. Good luck, hero!
+Task 1:Heroic Problem-Solving Day Using C++
+About
+This task consists of 5 problem-solving questions designed to test
+your skills in C++ programming. The difficulty increases gradually,
+allowing you to apply basic programming concepts and
+algorithmic thinking to solve each problem.
+Requirements
+● You have to solve the problems using cpp programming
+language only
+● Create an account on HackerRank where you can run and
+submit your solutions in the contest environment
+Contest Link
+https://www.hackerrank.com/mia-robotics-task1
+Bonus
+● If you show good usage of functions and have clean code, you will
+get bonus points
+Problem 0: Justice League Greetings
+About
+Imagine stepping into the Hall of Justice, where the legendary heroes
+of the Justice League await your arrival. Your mission is to greet each
+hero warmly, making a positive first impression. Each member will
+provide their name as input, and you must respond with a
+personalized greeting.
+Description
+Write a program that reads a name from the input and prints a
+greeting message in the format: "Hello, [name]!".
+Input
+A single line containing the name of a Justice League member.
+Output
+Print a single line containing the greeting message "Hello, [name]!".
+Example
+Input Wonder Woman
+Output Hello, Wonder Woman!
+Input Bruce
+Output Hello, Bruce!
+Problem 1: Building Pyramids in Atlantis
+About
+Aquaman has summoned you to build pyramids using his magical
+tridents. The goal is to print a pyramid pattern using asterisks (*)
+representing his tridents, each row containing an increasing number
+of asterisks, showcasing your ability to scale new heights.
+Description
+Write a program to print a pyramid pattern of a specified height
+using asterisks (*).
+Input
+An integer “n” representing the height of the pyramid (number of
+rows).
+Output
+Print a pyramid pattern where the first row has 1 asterisk, the second
+row has 2 asterisks, and so on, up to n rows.
+Example
+Input 2
+Output
+*
+**
+Input 4
+Output
+*
+**
+***
+****
+Problem 2: Green Lantern's Array
+About
+Green Lantern, using his power ring's ability to construct various
+structures, has created an array where each element represents
+a unique energy signature. Your mission is to search through this
+array and find the position of a specific energy signature,
+demonstrating your prowess in searching algorithms.
+Description
+Write a program to search for a specific value in an array of
+integers and return its index if found. If the value is not present,
+the program should return -1.
+Input
+● The first line contains an integer n, where n is the number of
+elements in the array.
+● The second line contains n space-separated integers
+representing the elements of the array.
+● The third line contains the integer target, which is the value to
+search for.
+Output
+● Output the index of the target in the array (0-based index).
+● If the target is not found in the array, output -1.
+Example
+Input
+5
+1 9 6 2 3
+6
+Output 2
+Input
+6
+100 7 8 50 67 44
+200
+Output -1
+Problem 3: Flight Training with Superman
+About
+Superman takes you under his wing for flight training. Your
+mission is to track and report the maximum height achieved
+during your flight, showcasing your ability to manage and analyze
+data.
+Description
+Write a program that takes a list of integers representing heights
+achieved during flight training and returns the maximum height
+recorded.
+Input
+● The first line contains an integer n, the number of height
+measurements.
+● The second line contains n space-separated integers
+representing the heights in meters.
+Output
+● Output a single integer, the maximum height recorded during
+the flight training.
+Example
+Input
+5
+10 15 8 20 12
+Output 20
+Input
+6
+1 9 2 3 4 7
+Output 9
+Problem 4: Battle Planning with Batman
+About
+Batman has summoned you to the Batcave for strategic planning
+against powerful villains. Your objective is to analyze two grids: one
+representing the power levels of the Justice League and the other
+representing the power levels of the villains across different areas of
+the battlefield.
+Description
+Write a program to determine which team, either the Justice League
+or the villains, wins in the majority of corresponding cells based on
+their power levels. The winner in each cell is determined as follows:
+● If justice_league[i][j] > villains[i][j], the Justice
+League wins in that area.
+● If justice_league[i][j] < villains[i][j], the villains
+win in that area.
+● If justice_league[i][j] == villains[i][j], it results
+in a tie for that area.
+The overall winner is the team that wins in the majority of areas
+compared to the other team.
+Input
+● The first line contains two integers r and c, where r is the
+number of rows and c is the number of columns in the grids.
+● The next r lines contain c space-separated integers representing
+the power levels of the Justice League.
+● The following r lines contain c space-separated integers
+representing the power levels of the villains.
+Output
+● Output the name of the team that wins in the majority of
+corresponding cells either “Justice League” or “Villains”. If both
+teams win an equal number of cells, output "Tie".
+Example
+Input
+3 3
+5 6 7
+4 5 6
+3 4 5
+3 5 7
+4 4 6
+4 4 4
+Output Justice League
+Input
+3 3
+4 5 6
+3 4 5
+2 3 4
+5 6 7
+6 7 8
+7 8 9
+Output Villains
+Input
+3 3
+4 5 6
+3 4 5
+2 3 4
+4 5 6
+3 4 5
+2 3 4
+Output Tie
+Submission
+● You will submit your codes through hackerrank’s contest only.
+● You can submit your code multiple times.
+● Make sure to submit your hackerrank username through this form:
+https://forms.gle/dppdWwtcSUHgnXQe8
+● The Task’s deadline is 17/7 11:59 PM.
+● Q&A Sheet (if you have any question regarding the sessions or the
+task) :
+https://docs.google.com/spreadsheets/d/1Y0rni3-tSgYQ7Ox-1R9L
+p5foVDbNku0jZ_8p-5yNPw4/edit?usp=sharing
+● As mentioned before, including functions, comments, and making
+your code clean and well-documented will give bonus points.
+● Cheating is severely penalized
