@@ -1,0 +1,173 @@
+Preface
+Batman has discovered that the Joker has planted mines across Gotham
+City. These mines emit light, and Batman has designed a minesweeper bot
+mini-tank to detect and neutralize these bombs. Your mission is to build and
+program this bot to help Batman save the city. Follow these steps to ensure
+the safety of Gotham:
+1. Detecting Mines: Equip the mini-tank with a photoresistor to detect
+the light emitted by the mines. When light is detected, the bot will
+activate a buzzer to signal the presence of a mine.
+2. Defusing Mines: Implement a mechanism to defuse the bomb using a
+servo motor.
+3. Navigating the City: Program the tank to yaw right, yaw left, move
+forward, and move backward.
+4. Avoiding Obstacles: Equip the mini-tank with ultrasonic sensors to
+detect and avoid obstacles such as walls and debris.
+5. Localization: After each movement, the tank should track its location
+within the city.
+Problem 1: Detecting Mines
+Description
+The streets of Gotham are dark, and the Joker's mines emit just
+enough light to be detectable but not immediately noticeable to the
+naked eye. Your bot will serve as Batman's eyes, patrolling the city to
+find these hidden dangers.
+Connect a Photoresistor: The photoresistor will be the bot's primary
+sensor, detecting light from the mines. It must be connected to the
+Arduino Uno via a breadboard and resistors to accurately read light
+levels.
+Activate the Buzzer: Once a mine is detected, the bot needs to
+signal using a buzzer. When the photoresistor detects light above a
+certain threshold (assume 500), the buzzer will sound, alerting the
+presence of a mine.
+Components
+● Arduino Uno
+● Breadboard
+● Photoresistor
+● Buzzer
+● Resistors
+Appendix
+● How Photoresistors Work:
+https://eepower.com/resistor-guide/resistor-types/photo-resistor/#
+● How Buzzers Work: https://www.elprocus.com/buzzer-working-applications/
+● Buzzers arduino
+library:https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/
+Problem 2: Defusing Mines
+Description
+To neutralize the mines, your bot needs to perform a specific action.
+The bot will use a servo motor to create this mechanism, moving in a
+precise pattern to defuse the mine.
+Using a servo motor, you will move the mechanism from 0 to 60
+degrees, defuse the bomb in 2 seconds and then will rotate back to 0
+degrees.
+Components
+● Servo motor(micro servo in Tinkercad)
+● Arduino Uno
+● Breadboard
+Problem 3: Movement
+Description
+To effectively patrol the perilous streets of Gotham and locate the
+Joker's hidden mines, Batman's mini-tank must navigate in specific
+patterns using 2 wheels. This involves precise movements in yaw
+directions, forward, and backward. Your task is to program the tank to
+execute these movements using an L298N motor driver and two DC
+motors. The ability to yaw right and left allows the tank to scan its
+surroundings comprehensively, while forward and backward
+movements ensure it can systematically cover the ground.
+The mini-tank should perform the following sequence:
+1. Yaw Right: Rotate 90 degrees to the right by activating the left
+motor forward and the right motor backward for 1 second.
+2. Yaw Left: Rotate 90 degrees to the left by activating the right
+motor forward and the left motor backward for 1 second.
+3. Move Forward: Advance 1 meter by activating both motors
+forward for 1 second.
+4. Move Backward: Reverse 1 meter by activating both motors
+backward for 1 second.
+Your task is to move the robot in every direction of the above and
+print in the serial monitor where the robot is moving.
+Components
+● Arduino Uno
+● L298N Motor Driver
+● 2 DC Motors
+● Breadboard
+● Battery 9v
+Appendix
+● How Motor Drivers Work:
+https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-contr
+ol-tutorial-l298n-pwm-h-bridge/
+Problem 4: Obstacle Detection
+Description
+Gotham's streets are fraught with obstacles like walls, debris, and
+other hazards that could hinder Batman's mini-tank. To ensure safe
+and efficient navigation while searching for mines, the mini-tank
+needs the capability to detect obstacles in its path. Your task is to
+equip the tank with ultrasonic sensors to detect obstacles by
+measuring the distance to them and print a message to the serial
+monitor when an object is detected within a specific range.
+Your task is to print that an object detected whenever the ultrasonic
+detects anything in its range.
+Components
+● Arduino Uno
+● Ultrasonic Sensor
+● Breadboard
+Appendix
+● How Ultrasonic sensors work:
+https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-s
+r04/
+Bonus Problem: Integrate and Localise
+Description
+In this final challenge, you will integrate all the components into a fully
+operational minesweeper tank designed to navigate Gotham's streets,
+detect obstacles, locate mines, and defuse them. The tank must also be
+capable of localizing its position within the city's grid to ensure
+thorough coverage.
+Your tasks include:
+1. Integration of Components: Combine the ultrasonic sensors,
+photoresistor, buzzer, servo motor, and motor driver into a
+cohesive system.
+2. Movement and Navigation: Program the tank to move in various
+directions, including yawing, moving forward, and backward as
+mentioned in problem 3.
+3. Obstacle Detection: Utilize four or less ultrasonic sensors
+positioned at specific angles to detect obstacles and adjust the
+tank’s path accordingly as in problem 4.
+4. Mine Detection and Defusing: Implement systems to detect mines
+using the photoresistor and defuse them using the mechanism
+controlled by the servo motor as in problems 1 and 2.
+5. Localization: Incorporate a system to localize the tank’s position
+within the 50m x 60m city grid. After each movement, the tank
+should print its current position to provide real-time localization
+data.
+● You will move through the city printing you current location,
+defuse bombs if detected, print when the bomb is detected and
+when defused and avoid moving through the obstacles.
+● Assume that the obstacles will never make you move backward (all
+your movements will be rotation and forward)
+● Assume the origin of the city on the left-down corner
+● Take into the consideration the new axis of the bot and the
+arrangement of the ultrasonic sensors after each rotation.
+● Remember you can move in these ways:
+○ Yaw Right: Rotate 90 degrees to the right by activating the left
+motor forward and the right motor backward for 1 second.
+○ Yaw Left: Rotate 90 degrees to the left by activating the right
+motor forward and the left motor backward for 1 second.
+○ Move Forward: Advance 1 meter by activating both motors
+forward for 1 second.
+Note: You can do as much as you can in this problem, even if you didn’t
+do all the requirements.
+Components
+● Arduino Uno
+● 4 Ultrasonic Sensors
+● Photoresistor
+● Buzzer
+● Servo Motor
+● L298N Motor Driver
+● 2 DC Motors
+● Breadboard
+● Battery 9V
+
+Optimo
+This problem is inspired from the minesweepers competition that
+M.I.A. team has joined before and this is their latest robot Optimo
+which competed in Minesweepers 2023 competition and got the best
+mechanical design award
+Submission
+● All the tasks can be done in tinkercad
+● Submission Link
+https://forms.gle/n8Jbwyo7PCEfnEX26
+● The Task’s deadline is 26/7 11:59 PM.
+● Q&A Sheet (if you have any question regarding the sessions or the
+task) :
+https://docs.google.com/spreadsheets/d/1Y0rni3-tSgYQ7Ox-1R9L
+p5foVDbNku0jZ_8p-5yNPw4/edit?gid=1521150305#gid=15211503
+05
+● Cheating is severely penalized
